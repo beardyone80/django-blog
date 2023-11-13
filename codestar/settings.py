@@ -27,6 +27,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
     '8000-beardyone80-djangoblog-2t805050rff.ws-eu106.gitpod.io',
+    '.herokuapp.com',
 ]
 
 
@@ -40,7 +41,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
-    '.herokuapp.com',
 ]
 
 MIDDLEWARE = [
