@@ -1,0 +1,1 @@
+console.log("My static files are being collected")
