@@ -5,7 +5,11 @@
 <div class="container mt-5">
     <div class="row">
         <div class="col-4 text-center">
-            <img src="{% static 'images/nobody.jpg' %}" width="75%">
+            {% if "placeholder" in post.featured_image.url %}
+            <img src="{% static 'images/nobody.jpg' %}" class="scale" alt="placeholder image" width="75%">
+            {% else %}
+            <img src="{{ about.featured_image.url }}" class="card-img-top" alt="{{ post.title }}" width="75%">
+            {% endif %}
         </div>
         <div class="col-8">
             <!-- Title goes between these h2 tags -->
