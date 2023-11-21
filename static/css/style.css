@@ -34,6 +34,10 @@ body {
     background-color: transparent;
 }
 
+.card-img-top {
+    max-height: 320.859px;
+}
+
 .image-container {
     position: relative;
 }
@@ -50,6 +54,11 @@ body {
     width: 100%;
     height: auto;
 }
+
+.profile-image {
+    width: 75%;
+}
+
 
 .author {
     color: white;
